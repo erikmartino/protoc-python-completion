@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message SubMessage {
+  int32 id = 1;
+  string content = 2;
+}
+
+message MainMessage {
+  string main_id = 1;
+  repeated SubMessage sub_messages = 2;
+}

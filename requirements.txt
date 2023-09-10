@@ -1,0 +1,4 @@
+protobuf
+confluent-kafka
+betterproto[compiler]
+mypy-protobuf
